@@ -12,5 +12,8 @@
     "url": "https://github.com/carrieforde/cf-component-alert.git"
   },
   "author": "Carrie Forde <carrie@carrieforde.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "lit-element": "^2.1.0"
+  }
 }

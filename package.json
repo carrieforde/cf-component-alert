@@ -1,6 +1,6 @@
 {
   "name": "cf-components-alert",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "\"An alert web component\"",
   "main": "cf-alert.js",
   "module": "cf-alert.js",

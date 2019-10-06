@@ -33,9 +33,14 @@ class CfAlert extends LitElement {
                 color: var(--alert-color-danger, #610316);
             }
 
+            slot {
+                display: block;
+                margin-left: 8px
+            }
+
             span {
                 float: left;
-                margin-right: 8px;
+                margin-left: -1rem;
                 text-align: center;
                 vertical-align: middle;
                 width: 1rem;

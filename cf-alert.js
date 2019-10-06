@@ -7,7 +7,7 @@ class CfAlert extends LitElement {
         return css`
             :host {
                 background-color: var(--alert-bg-default, #f0f4f8);
-                display: flex;
+                display: block;
                 color: var(--alert-color-default, #334e68);
                 padding: 12px 24px;
             }
@@ -34,9 +34,10 @@ class CfAlert extends LitElement {
             }
 
             span {
-                flex-shrink: 0;
+                float: left;
                 margin-right: 8px;
                 text-align: center;
+                vertical-align: middle;
                 width: 1rem;
             }
 

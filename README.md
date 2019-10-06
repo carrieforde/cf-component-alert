@@ -7,10 +7,8 @@ A simple alert web component.
 In an HTML file:
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <script type="module" src="components/alert/cf-alert.js"></script>
+<!DOCTYPE html><html lang="en"><head>
+    <script type="module" src="cf-alert.js"></script>
 
     <!-- 
         Use CSS custom properties to alter styles within the component.
@@ -19,6 +17,7 @@ In an HTML file:
         --alert-bg-default: hotpink;
     </style>
 </head>
+
 <body>
     <cf-alert>
         This is the default alert.
@@ -29,18 +28,17 @@ In an HTML file:
     </cf-alert>
 
     <cf-alert type="tip">
-        This is an tip / success alert.
+        This is a tip / success alert.
     </cf-alert>
 
     <cf-alert type="warning">
-        This is an warning alert.
+        This is a warning alert.
     </cf-alert>
 
     <cf-alert type="danger">
-        This is an danger alert.
+        This is a danger alert.
     </cf-alert>
-</body>
-</html>
+</body></html>
 ```
 
 With npm:
